@@ -20,4 +20,26 @@ t = np.arange(0., 5., 0.2) #產生從 0 到5 間隔為 0.2 的浮點數陣列
 plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**(.5), 'g^')
 
 
+plt.figure(5)
+# 繪圖的參數設定
+line1 = plt.plot([1,2,3,4,5], [1,4,9,16,25]) # line1 為物件
+plt.setp(line1, color = 'r', linewidth = 2.5) #用類似matlab的方式來指定繪圖方法
+#以上也能改寫成 plt.setp(line1, 'color', 'r', 'linewidth', 2,5)
+
+
+#多張圖片繪在同一個figure上
+plt.figure(6)
+#定義函數 f(t) = exp(-t)cos(2 pi t)
+def f(t):
+	return np.exp(-t)*np.cos(2*np.pi*t)
+
+t1 = np.arange(0., 5., .1)
+t2 = np.arange(0., 5., .02)
+
+plt.subplot(211) #指定 2個row 1個column 的第一個
+plt.plot(t1, f(t1), 'bo', t2, f(t2), 'g')
+
+plt.subplot(212)
+plt.plot(t2, np.sin(t2), 'm--')
+
 plt.show()  #將結果秀在圖形視窗上
