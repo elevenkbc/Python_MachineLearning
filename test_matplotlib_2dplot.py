@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.arange(-3, 3.5, 0.5)
-y = [ele**2 for ele in x]
-z = [ele *2 for ele in x]
+y = [var1**2 for var1 in x]
+z = [var2 *2 for var2 in x]
 
 fig = plt.figure(1)
 
