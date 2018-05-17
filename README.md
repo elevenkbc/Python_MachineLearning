@@ -56,11 +56,13 @@ python Plot2D.py
 
 若是安裝成功，執行後會出現以下畫面
 
+![image](https://github.com/elevenkbc/Python_MachineLearning/blob/master/image/Plot2D.png)
+
 #### 2.安裝 pip (Python 套件管理工具) 
 
 在 *Terminal* 輸入 
 
-```sh
+```shell
 sudo apt-get install python-pip
 ```
 
@@ -115,7 +117,7 @@ python HelloTensorflow.py
 
 如果安裝成功會出現 **Hello! Tensorflow!**
 
-####8.輸入以下指令，離開 **virtualenv** 虛擬環境
+#### 8.輸入以下指令，離開 **virtualenv** 虛擬環境
 
 ``` shell
 deactivate
