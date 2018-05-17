@@ -1,5 +1,4 @@
-##安裝 Python 套件 與  Tensorflow 方法
-
+## 安裝 Python 套件 與  Tensorflow 方法
 
 
 以下指令都在 **ubuntu 16.04 LTS** 64bit 作業系統下執行
@@ -65,7 +64,7 @@ python Plot2D.py
 sudo apt-get install python-pip
 ```
 
-####3. Virtualenv (虛擬環境，可以避免python 套件間的干擾)
+#### 3. Virtualenv (虛擬環境，可以避免python 套件間的干擾)
 
 ```shell
 sudo apt-get install python-dev python-virtualenv
