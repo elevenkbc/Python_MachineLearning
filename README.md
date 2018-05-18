@@ -86,7 +86,7 @@ virtualenv --system-site-packages ~/tensorflow
 source ~/tensorflow/bin/activate
 ```
 
-執行後，終端機的每一行前面會出現 ** (tenforflow) ** ，代表已經在剛剛新建的虛擬環境 (名為 tensorflow)中
+執行後，終端機的每一行前面會出現 **(tenforflow)** ，代表已經在剛剛新建的虛擬環境 (名為 tensorflow)中
 
 此後在 *Terminal* 執行的所有指令、安裝的套件，都是在名為 **tensorflow** 中的虛擬環境中安裝，並不會與其他環境互相干擾
 
