@@ -99,8 +99,10 @@ pip install --upgrade tensorflow
 ```
 
 如果無法安裝,請先更新pip
+
 ```shell
 pip install --upgrade pip
+```
 
 #### 7. 測試 tensorflow 是否安裝成功
 
